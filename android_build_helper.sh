@@ -44,7 +44,7 @@
 #   https://github.com/jemc/android_build_helper
 #
 # You are free to modify this script, but if you add improvements,
-# please consider submitting a pull request to the aforementiong upstream
+# please consider submitting a pull request to the aforementioned upstream
 # repository for the benefit of other users.
 #
 
