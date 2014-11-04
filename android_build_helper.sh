@@ -60,7 +60,7 @@ ANDROID_BUILD_FAIL=()
 
 function android_build_check_fail {
     if [ ! ${#ANDROID_BUILD_FAIL[@]} -eq 0 ]; then
-        echo "qt-android build failed for the following reasons:"
+        echo "Android build failed for the following reasons:"
         for reason in "${ANDROID_BUILD_FAIL[@]}"; do
             local formatted_reason="  ${reason}"
             echo "${formatted_reason}"
