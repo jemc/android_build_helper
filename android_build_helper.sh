@@ -248,7 +248,7 @@ function android_build_opts {
     local CFLAGS="--sysroot=${ANDROID_BUILD_SYSROOT} -I${ANDROID_BUILD_PREFIX}/include"
     local CPPFLAGS="--sysroot=${ANDROID_BUILD_SYSROOT} -I${ANDROID_BUILD_PREFIX}/include"
     local CXXFLAGS="--sysroot=${ANDROID_BUILD_SYSROOT} -I${ANDROID_BUILD_PREFIX}/include"
-    local LDFLAGS=""
+    local LDFLAGS="-L${ANDROID_BUILD_PREFIX}/lib"
     local LIBS="-lc -lgcc -ldl"
     
     _android_build_opts_process_binaries
